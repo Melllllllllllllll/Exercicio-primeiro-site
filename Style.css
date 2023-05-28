@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+h1{
+
+    color: black;
+    position: absolute;
+    top: 0;
+
+}
+.LogoCat{
+ 
+    width: 100%;
+    height: 350px;
+
+}
+
+.listaDeVideos{
+    display: flex;
+    gap: 10rem;
+}
+
+.listaDeVideos > li{
+    list-style: none;
+    
+}
+.listaDeVideos > li >a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.listaDeVideos > li > a:hover {
+    color: coral;
+}
+.imgCat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alertArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: coral;
+
+
+}
+.alertForm{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+h2{
+
+    font-size: 2rem;
+
+}
+.inputs > label {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.inputs > input {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+
+}
+.inputs > button {
+    width: 150px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+    
+}
+.inputs > button:hover {
+
+    background-color: rgb(26, 24, 24);
+    
+}
